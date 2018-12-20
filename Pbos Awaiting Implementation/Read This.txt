@@ -1,0 +1,5 @@
+This folder is for completed PBO's awaiting implementation for an Arma3Sync Update.
+This could be a completed and tested version of a pbo from the Texture Developers folder
+Or it could be something new like a clothing pack that needs to be implemented.
+
+When you put something inside of here such as a clothing pack or vehicle textures, please include the classnames in a text file with the same name as the pbo.
