@@ -202,6 +202,12 @@ case "critgamin_vangmcc_civ_orange": {100};
 	
 
 
+	case "d3s_nemises_vklasse_250amg_17": {70};
+	case "d3s_nemises_vklasse_17_SE": {70};
+	case "d3s_nemises_vklasse_250_17": {70};
+	case "d3s_nemises_vklasse_7news_17": {70};
+
+
 	// cars
 	case "A3L_Veyron": {25};
 	case "A3L_Veyron_red": {25};

@@ -316,6 +316,33 @@ switch (_shop) do
 			["d3s_durango_18_se",55000]
 		];
 	};
+
+	case "merc_car":
+	{
+		_return =
+		[
+			["d3s_nemises_vklasse_250amg_17",45000],
+			["d3s_nemises_vklasse_17_SE",50000],
+			["d3s_nemises_vklasse_250_17",55000],
+			["d3s_nemises_vklasse_7news_17",60000],
+			["d3s_nemises_C63S_14",105000],
+			["d3s_nemises_C63_14",105000],
+			["d3s_nemises_C43_16",125000],
+			["d3s_nemises_C63S_14_SE",135000],
+			["d3s_gl63amg_12",105000],
+			["d3s_gl63amg_12_SE",115000],
+			["d3s_nemises_gls63amg_17_LT",125000],
+			["d3s_nemises_gls63amg_17",135000],
+			["d3s_e350_16",155000],
+			["d3s_e400_16",175000],
+			["d3s_s63amg_13",205000],
+			["d3s_s65amg_14",155000],
+			["d3s_amgGT_15",305000],
+			["d3s_amgGTS_15",355000],
+			["d3s_amgGTR_15",405000]
+		];
+	};
+
 	case "civ_car":
 	{
 		_return =
