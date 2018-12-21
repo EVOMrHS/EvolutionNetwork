@@ -287,7 +287,6 @@ switch(_shop) do
                                         ["30Rnd_556x45_Stanag",nil,1000],
                                         
                                         //Accessories
-                                        ["optic_MRCO",nil,1000],
                                         ["RH_eotech553",nil,1000]
                                         ]
                                 ];
@@ -662,7 +661,6 @@ switch(_shop) do
                                         ["30Rnd_556x45_Stanag",nil,1000],
                                         
                                         //Accessories
-                                        ["optic_MRCO",nil,1000],
                                         ["RH_eotech553",nil,1000]
 
                                     ]
