@@ -172,8 +172,8 @@ switch(_shop) do
                                             //Primary
                                             ["hlc_smg_mp5a4",nil,1500],
                                             ["hlc_30Rnd_9x19_B_MP5",nil,100],
-                                            ["RH_M16A4",nil,2000],
-                                            ["30Rnd_556x45_Stanag",nil,500],
+                                            ["hlc_rifle_M4",nil,2500],
+                                            ["hlc_30rnd_556x45_EPR",nil,1250],
                                             //Accessories
                                             ["FHQ_optic_AC11704",nil,100]
                                             
@@ -661,7 +661,12 @@ switch(_shop) do
                                         ["30Rnd_556x45_Stanag",nil,1000],
                                         
                                         //Accessories
-                                        ["RH_eotech553",nil,1000]
+                                        ["RH_eotech553",nil,1000],
+                                        ["RH_t1",nil,1000],
+                                        ["FHQ_optic_AIM",nil,1000],
+                                        ["RH_LTdocter",nil,1000],
+                                        ["RH_barska_rds",nil,1000],
+                                        ["RH_compm4s",nil,1000]
 
                                     ]
                              ];
