@@ -11,7 +11,7 @@ if(_item == "") exitWith {};
 
 switch (_item) do
 {
-case "tierope": {7.5};
+case "tierope": {2};
 case "cleankit": {1};
 case "bandage": {0.1};
 case "stitches": {0};
