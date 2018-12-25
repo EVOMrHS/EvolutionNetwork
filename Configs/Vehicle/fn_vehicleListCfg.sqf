@@ -200,17 +200,6 @@ switch (_shop) do
 			["S_PorscheRS_Black",450000],
 			["S_PorscheRS_Yellow",450000],
 			["S_PorscheRS_White",450000],
-			["S_McLarenP1_Black",1850000],
-			["S_McLarenP1_Blue",1850000],
-			["S_McLarenP1_Orange",1850000],
-			["S_McLarenP1_White",1850000],
-			["S_McLarenP1_Yellow",1850000],
-			["S_McLarenP1_Silver",1850000],
-			["A3L_Veyron",3500000],
-			["A3L_Veyron_red",3500000],
-			["A3L_Veyron_black",3500000],
-			["A3L_Veyron_white",3500000],
-			["A3L_Veyron_orange",1500000],
 			["Nhz_audia8limo",100000],
 			["A3L_Ferrari458red",2200000],
 			["AM_11SLSAMG_White",950000],
@@ -238,6 +227,7 @@ switch (_shop) do
 			["d3s_nemises_f90_18",110000],
 			["d3s_nemises_f90_18_FE",125000],
 			["d3s_nemises_f90_18_m",125000],
+			["d3s_asterion_15_DMC",8500000],
 			["d3s_f86_15_OFF",160000],
 			["d3s_f86_15_m",155000],
 			["d3s_e89_12",110000]
@@ -385,15 +375,6 @@ switch (_shop) do
 			["d3s_svr_17_SD4",120000],
 			["d3s_svr_17_CHARGED",140000],
 			["d3s_svr_17_SVR",160000],
-			["d3s_svr_17_007",250000],
-			["S_Rangerover_Black",82000],
-			["S_Rangerover_Red",82000],
-			["S_Rangerover_Blue",82000],
-			["S_Rangerover_Green",82000],
-			["S_Rangerover_Purple",82000],
-			["S_Rangerover_Grey",82000],
-			["S_Rangerover_Orange",82000],
-			["S_Rangerover_White",82000],
 			["AM_73transam_White",55500],
 			["AM_73transam_Black",55500],
 			["AM_73transam_Red",55500],
@@ -638,6 +619,8 @@ switch (_shop) do
 			["d3s_cherokee_18_UNM",7000],
 			["d3s_amazing_a45_16_COP",7000],
 			["d3s_e400_16_COP",7000],
+            ["d3s_srthellcat_15_CPST",7000],
+			["d3s_charger_15_CPU",7000],
 			["d3s_svr_17_COP",8000]
 		];
 	};
@@ -690,6 +673,7 @@ switch (_shop) do
 			["I_Heli_Transport_02_F",30000],
 			["I_Heli_light_03_unarmed_F",30000],
 			["EC635_Unarmed",32500],
+			["d3s_AS_365_PD",32500],
 			["EC635_SAR",32500],
 			["NH90",35000]
 		];
