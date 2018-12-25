@@ -621,6 +621,7 @@ switch (_shop) do
 			["d3s_e400_16_COP",7000],
             ["d3s_srthellcat_15_CPST",7000],
 			["d3s_charger_15_CPU",7000],
+			["d3s_escalade_16_um",7000],
 			["d3s_svr_17_COP",8000]
 		];
 	};
