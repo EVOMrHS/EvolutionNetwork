@@ -83,44 +83,34 @@ switch (_shop) do
 		];
 	};
 	case "med_shop":
-	{
+	{	
 		_return = [
 		
-			["GM_CHARGER_EMS",15000],
-			["GM_VAN_EMS",15000],
-			["GM_TAURUS_EMS",15000],
-			["GM_MUSTANG_EMS",15000],
-			["GM_SAVANA_EMS",15000],
-			["d3s_svr_17_EMS",15000],
-			["O_Truck_02_covered_F",5000],
-			["cg_ambulanceexpansion",5000],
-			["A3L_AmberLamps",5000],
-			["A3L_Laddertruck",5000],
-			["DAR_TahoeEMS",5000],
-			["AM_Holden_EMS",5000],
-			["sfp_wheelchair",5000],
-			["cg_merc_atego_firetruck_reg",5000],
-			["cg_mercedes_sprinter_ems",5000],
-			["cg_evoems1",5000],
-			["cg_evoems2",5000],
-			["cg_evoems3",5000],
-			["d3s_escalade_16_EMS",5000],
-			["d3s_tahoe_EMS",5000],
-			["d3s_nemises_explorer_EMS_13",5000],
-			["d3s_svr_17_EMS",5000]
+			["evo_ems_CHARGER",500],
+			["evo_ems_TAURUS",500],
+			["evo_ems_TAHOE",500],
+			["GM_EXPLORER_EMS",500],
+			["GM_SAVANA_EMS",500],
+			["GM_VAN_EMS",500],
+			["GM_MUSTANG_EMS",500],
+			["GM_EXPLORER_EMSLT",500],
+			["GM_EXPLORER_EMSCPT",500],
+			["A3L_AmberLamps",500],
+			["cg_mercedes_sprinter_ems",500],
+			["GM_EXPLORER_FTO",500],
+			["GM_EXPLORER_ASSCHIEF",500],
+			["GM_EXPLORER_CHIEF",500],
+			["JD_F350_Red",500]
 			
 		];
 	};
 	case "med_air_hs": {
 		_return = [
-			["d3s_nemises_heli_EMS",5000],
-			["ivory_b206_rescue",25000],
-			["IVORY_BELL512_RESCUE",25000],
-			["C_Heli_Light_01_civil_F",25000],
-			["O_Heli_Light_02_unarmed_F",25000],
-			["EMS_Orca",25000],
-			["EMS_Orca2",25000],
-			["A3L_EC635_SAR",25000]
+			["EMS_Chopper",500],
+			["EMS_Orca",500],
+			["IVORY_BELL512_RESCUE",500],
+			["ivory_b206_rescue",500],
+			["RobJ_Rescue1",500]
 		];
 	};
 	case "exo_car":
