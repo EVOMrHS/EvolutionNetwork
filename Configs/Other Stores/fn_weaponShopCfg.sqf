@@ -3,7 +3,7 @@
 private["_shop"];
 _shop = [_this,0,"",[""]] call BIS_fnc_param;
 if(_shop == "") exitWith {closeDialog 0}; //Bad shop type passed.
- 
+
 switch(_shop) do
 {
         case "med_supplies":
@@ -48,11 +48,11 @@ switch(_shop) do
                         };
                 };
         };
-    
 
 
 
-        
+
+
         case "cop_basic":
         {
                 switch(true) do
@@ -77,8 +77,8 @@ switch(_shop) do
                         };
                 };
         };
-        
-        case "civ_lsmo": 
+
+        case "civ_lsmo":
         {
                 switch(true) do
                 {
@@ -104,7 +104,7 @@ switch(_shop) do
                                 ];
                         };
                 };
-        };      
+        };
         ///////////////////////////////////////////////////////////////////////////////////////////
         case "recruit":
         {
@@ -147,7 +147,7 @@ switch(_shop) do
                                             ["hlc_smg_mp5a4",nil,1500],
                                             ["hlc_30Rnd_9x19_B_MP5",nil,100],
                                             //Accessories
-                                            ["FHQ_optic_AC11704",nil,100]                                   
+                                            ["FHQ_optic_AC11704",nil,100]
                                         ]
                                 ];
                         };
@@ -176,8 +176,8 @@ switch(_shop) do
                                             ["hlc_30rnd_556x45_EPR",nil,1250],
                                             //Accessories
                                             ["FHQ_optic_AC11704",nil,100]
-                                            
-                                  
+
+
                                         ]
                                 ];
                         };
@@ -210,7 +210,7 @@ switch(_shop) do
                                             ["FHQ_optic_AC11704",nil,100],
                                             ["RH_compM2",nil,300],
                                             ["RH_ta31rmr",nil,100],
-                                            ["optic_Arco",nil,100]                                 
+                                            ["optic_Arco",nil,100]
                                         ]
                                 ];
                         };
@@ -229,7 +229,7 @@ switch(_shop) do
                                         //Browing HP
                                         ["hgun_mas_bhp_F",nil,5000],
                                         ["15Rnd_mas_9x21_Mag",nil,1500],
-                                        
+
                                         ["RH_kimber_nw",nil,5000],
                                         ["RH_7Rnd_45cal_m1911",nil,1000],
 
@@ -240,7 +240,7 @@ switch(_shop) do
                                         ["11Rnd_45ACP_Mag",nil,1500],
 
                                         ["RH_vp70",nil,5000],
-                                        ["RH_18Rnd_9x19_VP",nil,1500],  
+                                        ["RH_18Rnd_9x19_VP",nil,1500],
 
                                         //Micro Uzi
                                         ["RH_muzi",nil,5000],
@@ -252,7 +252,7 @@ switch(_shop) do
 
                                         ["RH_vz61",nil,5000],
                                         ["RH_20Rnd_32cal_vz61",nil,2800],
-                                        
+
                                         //Smith gold
                                         ["hgun_007_SW_M10_gold",nil,5000],
                                         ["6Rnd_45ACP_Cylinder",nil,2250],
@@ -261,31 +261,31 @@ switch(_shop) do
                                         ["RH_g18",nil,5000],
                                         ["RH_19Rnd_9x19_g18",nil,1500],
                                         ["RH_33Rnd_9x19_g18",nil,2250],
-                                        
+
                                         //AK74U
                                         ["hlc_rifle_aks74u",nil,5000],
                                         ["hlc_30Rnd_545x39_B_AK",nil,1000],
-                                        
+
                                         //Bizon
                                         ["arifle_mas_bizon",nil,5000],
                                         ["64Rnd_mas_9x18_mag",nil,1000],
-                                        
+
                                         //MP5K
                                         ["hlc_smg_mp5k_PDW",nil,5000],
                                         ["hlc_30Rnd_9x19_B_MP5",nil,1000],
-                                         
+
                                          //MP5A3
                                         ["hlc_smg_mp5a3",nil,5000],
                                         ["hlc_30Rnd_9x19_B_MP5",nil,1000],
-                                        
+
                                         //Sting
                                         ["SMG_02_F",nil,5000],
                                         ["30Rnd_9x21_Mag_SMG_02",nil,1000],
-                                        
+
                                         //SG553
                                         ["SG553_CQB",nil,5000],
                                         ["30Rnd_556x45_Stanag",nil,1000],
-                                        
+
                                         //Accessories
                                         ["RH_eotech553",nil,1000]
                                         ]
@@ -302,7 +302,7 @@ switch(_shop) do
                         default
                         {
                                 ["Lieutenant Shop",
-                                        [             
+                                        [
                                             //Taser
                                             ["DDOPP_X26",nil,500],
                                             ["DDOPP_1Rnd_X26",nil,100],
@@ -322,7 +322,7 @@ switch(_shop) do
                                             ["FHQ_optic_AC11704",nil,100],
                                             ["RH_compM2",nil,300],
                                             ["RH_ta31rmr",nil,100],
-                                            ["optic_Arco",nil,100]                                                       
+                                            ["optic_Arco",nil,100]
                                         ]
                                 ];
                         };
@@ -337,7 +337,7 @@ switch(_shop) do
                         default
                         {
                                 ["Captain Shop",
-                                        [             
+                                        [
                                             //Taser
                                             ["DDOPP_X26",nil,500],
                                             ["DDOPP_1Rnd_X26",nil,100],
@@ -353,9 +353,9 @@ switch(_shop) do
                                             ["hlc_30rnd_556x45_EPR",nil,300],
                                             ["RH_PDW",nil,2500],
                                             ["RH_30Rnd_6x35_mag",nil,300],
-                                            ["FHQ_arifle_ACR_blk",nil,3000], 
+                                            ["FHQ_arifle_ACR_blk",nil,3000],
                                             ["FHQ_rem_30Rnd_680x43_ACR",nil,500],
-                                            ["hlc_rifle_samr2",nil,3000], 
+                                            ["hlc_rifle_samr2",nil,3000],
                                             ["30Rnd_556x45_Stanag",nil,500],
                                             //Accessories
                                             ["FHQ_optic_AC11704",nil,100],
@@ -363,7 +363,7 @@ switch(_shop) do
                                             ["RH_ta31rmr",nil,100],
                                             ["optic_Holosight",nil,300],
                                             ["optic_Arco_blk_F",nil,100]
-                                                        
+
                                         ]
                                 ];
                         };
@@ -432,7 +432,7 @@ switch(_shop) do
                                             ["RH_X300",nil,1000],
                                             ["acc_flashlight",nil,300],
                                             ["RH_qdss_nt4",nil,300],
-                                            ["RH_SFM952V",nil,300],      
+                                            ["RH_SFM952V",nil,300],
                                             ["FHQ_optic_AIM",nil,300],
                                             ["optic_Hamr",nil,300],
                                             ["RH_saker",nil,300],
@@ -455,7 +455,7 @@ switch(_shop) do
                         case (playerSide != west): {"You are not a cop!"};
                         case (__GETC__(life_coplevel) < 7): {"You are not a part of State Command!"};
                         default
-                        {       
+                        {
                                 ["Command Store",
                                         [
                                             //Primary
@@ -466,7 +466,7 @@ switch(_shop) do
                                             ["hgun_mas_mp7_F",nil,3000],
                                             ["40Rnd_mas_46x30_Mag",nil,500],
                                             ["hlc_rifle_awmagnum_BL",nil,3000],
-                                            ["hlc_5rnd_300WM_AP_AWM",nil,500],                                                                             
+                                            ["hlc_5rnd_300WM_AP_AWM",nil,500],
                                             ["AG_MP9",nil,3000],
                                             ["30Rnd_45ACP_Mag_SMG_01",nil,500],
                                             ["RH_PDW",nil,3000],
@@ -488,7 +488,7 @@ switch(_shop) do
                                             ["RH_6Rnd_357_Mag",nil,500],
                                             //Accessories
                                             ["RH_compM2",nil,300],
-                                            ["optic_Arco",nil,300], 
+                                            ["optic_Arco",nil,300],
                                             ["RH_demz",nil,5000],
                                             ["RH_Deflash",nil,500],
                                             ["optic_Yorris",nil,500],
@@ -508,7 +508,7 @@ switch(_shop) do
                                             ["RH_X300",nil,1000],
                                             ["acc_flashlight",nil,300],
                                             ["RH_qdss_nt4",nil,300],
-                                            ["RH_SFM952V",nil,300],      
+                                            ["RH_SFM952V",nil,300],
                                             ["FHQ_optic_AIM",nil,300],
                                             ["optic_Hamr",nil,300],
                                             ["RH_saker",nil,300],
@@ -555,7 +555,7 @@ switch(_shop) do
                                             ["RH_m3lr",nil,300],
                                             ["FHQ_optic_MARS",nil,300],
                                             ["RH_accupoint",nil,300],
-                                            ["RH_sfn57",nil,300], 
+                                            ["RH_sfn57",nil,300],
                                             ["FHQ_optic_AC12136",nil,300],
                                             ["RH_matchsd",nil,300]
                                         ]
@@ -578,7 +578,7 @@ switch(_shop) do
                                         //Browing HP
                                         ["hgun_mas_bhp_F",nil,15000],
                                         ["15Rnd_mas_9x21_Mag",nil,1500],
-                                        
+
                                         ["RH_kimber_nw",nil,20000],
                                         ["RH_7Rnd_45cal_m1911",nil,1000],
 
@@ -589,7 +589,7 @@ switch(_shop) do
                                         ["11Rnd_45ACP_Mag",nil,1500],
 
                                         ["RH_vp70",nil,20000],
-                                        ["RH_18Rnd_9x19_VP",nil,1500],  
+                                        ["RH_18Rnd_9x19_VP",nil,1500],
 
                                         //Micro Uzi
                                         ["RH_muzi",nil,30000],
@@ -601,7 +601,7 @@ switch(_shop) do
 
                                         ["RH_vz61",nil,30000],
                                         ["RH_20Rnd_32cal_vz61",nil,2800],
-                                        
+
                                         //Smith gold
                                         ["hgun_007_SW_M10_gold",nil,10000],
                                         ["6Rnd_45ACP_Cylinder",nil,2250],
@@ -617,7 +617,7 @@ switch(_shop) do
                         };
                 };
         };
-      
+
         case "rebel_high":
         {
                 switch(true) do
@@ -627,39 +627,43 @@ switch(_shop) do
                         default
                         {
                                 ["Black Market Dealer",
-                                    [                                       
+                                    [
+                                        //AK Gold
+                                        ["CUP_arifle_AKS_Gold",nil,10000000],
+                                        ["hlc_30Rnd_545x39_B_AK",nil,100000],
                                         //AK74U
                                         ["hlc_rifle_aks74u",nil,140000],
                                         ["hlc_30Rnd_545x39_B_AK",nil,1000],
-                                        
+                                        //AK12
+                                        ["hlc_rifle_ak12",nil,140000],
+                                        ["hlc_30Rnd_545x39_B_AK",nil,1000],
+                                        //AKS74
+                                        ["hlc_rifle_aks74",nil,140000],
+                                        ["hlc_30Rnd_545x39_B_AK",nil,1000],
+                                        //AK74
+                                        ["hlc_rifle_ak74",nil,140000],
+                                        ["hlc_30Rnd_545x39_B_AK",nil,1000],
                                         //PDW
                                         ["RH_PDW",nil,85000],
                                         ["RH_30Rnd_6x35_mag",nil,1000],
-                                        
                                         //M4
                                         ["hlc_rifle_M4",nil,160000],
                                         ["hlc_30rnd_556x45_EPR",nil,1250],
-                                        
                                         //MP5K
                                         ["hlc_smg_mp5k_PDW",nil,70000],
                                         ["hlc_30Rnd_9x19_B_MP5",nil,1000],
-                                         
                                         //MP5A3
                                         ["hlc_smg_mp5a3",nil,70000],
                                         ["hlc_30Rnd_9x19_B_MP5",nil,1000],
-                                        
                                         //M16A4
                                         ["RH_M16A4",nil,120000],
                                         ["30Rnd_556x45_Stanag",nil,1000],
-                                            
                                         //Sting
                                         ["SMG_02_F",nil,60000],
                                         ["30Rnd_9x21_Mag_SMG_02",nil,1000],
-                                        
                                         //SG553
                                         ["SG553_CQB",nil,120000],
                                         ["30Rnd_556x45_Stanag",nil,1000],
-                                        
                                         //Accessories
                                         ["RH_eotech553",nil,1000],
                                         ["RH_t1",nil,1000],
@@ -694,13 +698,13 @@ switch(_shop) do
 
                                                 ["hgun_Rook40_F",nil,7500],
                                                 ["16Rnd_9x21_Mag",nil,1100],
-                                                
+
                                                 ["RH_mk2",nil,7500],
                                                 ["RH_10Rnd_22LR_mk2",nil,1250],
-                                                
+
                                                 ["RH_m9c",nil,7500],
                                                 ["RH_15Rnd_9x19_M9",nil,1000],
-                                                
+
                                                 ["hgun_P07_F",nil,7500],
                                                 ["16Rnd_9x21_Mag",nil,500],
 
@@ -713,7 +717,7 @@ switch(_shop) do
                         };
                 };
         };
-        
+
         case "rifle":
         {
                 switch(true) do
@@ -731,8 +735,8 @@ switch(_shop) do
                                 ];
                         };
                 };
-        };      
-       
+        };
+
         case "gang":
         {
                 switch(true) do
@@ -743,13 +747,13 @@ switch(_shop) do
                                 ["Hideout Armament",
                                         [
                                                 ["A3L_Glock17",nil,7500],
-                                                ["A3L_Glock17mag",nil,500]                                          
+                                                ["A3L_Glock17mag",nil,500]
                                         ]
                                 ];
                         };
                 };
         };
-       
+
         case "genstore":
         {
                 ["General Store",
@@ -781,4 +785,3 @@ switch(_shop) do
                 ];
         };
 };
-
